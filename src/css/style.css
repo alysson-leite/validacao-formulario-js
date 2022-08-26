@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/bg-repeat.jpg);
+    background-size: contain;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-areas: 'conteudo''formulario';
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    padding: 100px;
+}
+
+.conteudo h1 {
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.conteudo p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.formulario {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 378px;
+    position: absolute;
+    padding: 20px;
+    left: 55%;
+    height: 70vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.formulario .input {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+}
+
+.input:focus {
+    outline: 0;
+}
+
+.formulario .input.campo-maior {
+    font-weight: 700;
+    height: 100px;
+}
+
+.formulario .btn {
+    background-color: #3CCC87;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    border-style: none;
+    cursor: pointer;
+    width: 300px;
+}
+
+.formulario .btn:hover{
+    opacity: 0.9;
+}
+
+/* SE NÃO PREENCHER */
+
+.formulario .obrigatorio {
+    display: none;
+    color: #F52E2E;
+    font-size: 9px;
+}
+
+.formulario .mostrar-erro {
+    border-color: #F52E2E;
+    display: block;
+}
+
+.formulario .mostrar-sucesso {
+    border-color: #3CCC87;
+}
