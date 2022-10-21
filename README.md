@@ -5,7 +5,7 @@
 ## Índice
 
 - [Imagem do projeto](#imagem-do-projeto)
-- [Repositório do projeto](#repositório-do-projeto)
+- [Página do projeto](#página-do-projeto)
 - [Tecnologias 💻](#tecnologias-💻)
 - [O que aprendi 👨🏻‍💻](#o-que-aprendi-👨🏻‍💻)
 - [Contato 📩](#contato-📩)
@@ -19,9 +19,9 @@
 ![Campos-em-validação](./.github/validacao-formulario2.jpg)
 
 
-## Repositório do projeto
+## Página do projeto
 
-[🔗 Clique aqui para acessar o projeto](https://github.com/alysson-leite/validacao-formulario-js)
+[🔗 Clique aqui para acessar o projeto](https://alysson-leite.github.io/validacao-formulario-js/)
 
 ## Tecnologias 💻
 - HTML
